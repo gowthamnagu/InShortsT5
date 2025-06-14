@@ -36,37 +36,49 @@ Key Features:
 ## 🚀 Installation
     
 
-- ### 1. Clone the repository
+ ### 1. Clone the repository
     
        git clone  https://github.com/gowthamnagu/news-summarization.gi
 
--  ### 2. Set up a virtual environment
+ ### 2. Set up a virtual environment
 
         conda create -p venv python=3.11 -y
         conda activate venv/
 
--  ### 3. Install dependencies 
+ ### 3. Install dependencies 
 
         pip install -r requirements.txt
 
      
-  ### 4. Running the Application
+## ▶️ Running the Application
 
         Run the main file to start the application:
 
         streamlit run app.py.
 
-## Project Structure    
+## 🗂️ Project Structure    
 ```    
 └── news_summarizer/
     ├── t5-ns-12/
-    │   ├── tf_model.h5      #finetunied model file
+    │   ├── tf_model.h5     #finetunied model file
     │   └── tokenizer.json
     ├── app.py              #streamlit applicaiton for new_summarization
-    ├── dockerfile         #to containerize news_summary application 
+    ├── dockerfile          #to containerize news_summary application 
     ├── finetune_t5.py      
     ├── ts_finetuned.py     #contains functionality for generating summary based on finetune model(t5-ns-12)
-    ├── ts_pretuned.py      #contains functionality for generating summary based on pretuned model (t5-small)
+    ├── ts_pretrained.py    #contains functionality for generating summary based on pretuned model (t5-small)
     ├── news_summary.csv    #dataset file for finetuning the t5-small file
     └── requirements.txt    #Lists all the dependencies required for the project.
 ```
+
+## 📄 License
+
+This project is open-source under the MIT License.
+
+
+## 🙋‍♂️ Contributions
+
+Feel free to fork the repository, make improvements, and create pull requests!
+---
+Let me know if you want a downloadable PDF version of this `README.md` or help linking your GitHub repo to GitHub Pages for a live project site.
+
