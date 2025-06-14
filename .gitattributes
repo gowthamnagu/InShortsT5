@@ -1,0 +1,1 @@
+t5-ns-12/tf_model.h5 filter=lfs diff=lfs merge=lfs -text
