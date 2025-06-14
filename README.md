@@ -15,6 +15,7 @@ Unlike extractive approaches that merely copy sentences from the original text, 
 
 ## Project Overview
 News Summarizer is a machine learning project that leverages the T5-small model fine-tuned using TensorFlow to perform abstractive summarization of news articles. The goal is to transform long-form news content into short, informative summaries that preserve the core meaning.
+![text_summarizer_demo][]
 
 Unlike traditional extractive summarizers that simply copy and paste key sentences, this project uses an abstractive approach, generating entirely new sentences to represent the content more naturally — similar to how a human might summarize.
 ## Tech Stack
@@ -47,6 +48,8 @@ Unlike traditional extractive summarizers that simply copy and paste key sentenc
 Run the main file to start the application:
 
     streamlit run app.py.
+
+## Project Structure    
 ```    
 └── news_summarizer/
     ├── t5-ns-12/
