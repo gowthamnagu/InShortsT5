@@ -16,7 +16,7 @@ The model was fine-tuned on a Kaggle dataset of **4,500 news records**, where ea
 
 ![text_summarizer_demo](https://github.com/gowthamnagu/news-summarization/blob/main/demo/demo.gif)
 
-## Project Overview
+## 🧠 Project Overview
 This project leverages a **fine-tuned T5-small model** using TensorFlow for summarizing news content. It transforms long-form text into short, informative summaries that preserve the core meaning.
 
 Key Features:
@@ -25,7 +25,7 @@ Key Features:
 - ROUGE evaluation metrics integrated into the app
 - Fully interactive web app built with **Streamlit**
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **TensorFlow** – For model training and inference (fine-tuned T5).
 - **Transformers** (Hugging Face) – For leveraging the T5-small model and tokenizer.
 - **Evaluate** – For computing ROUGE metrics during summarization evaluation.
@@ -33,28 +33,28 @@ Key Features:
 - **Streamlit** – To build the interactive web interface for summarizing text using pretrained and fine-tuned models.
 - **Git & GitHub** – For version control and open-source hosting.
 - **Git LFS (Large File Storage)** – For storing and managing large model weights (tf_model.h5).
-## Installation
+## 🚀 Installation
     
 
-- **Clone the repository**
+- ### 1. Clone the repository
     
        git clone  https://github.com/gowthamnagu/news-summarization.gi
 
-- **Set up a virtual environment** 
+-  ### 2. Set up a virtual environment
 
         conda create -p venv python=3.11 -y
         conda activate venv/
 
-- **Install dependencies** 
+-  ### 3. Install dependencies 
 
         pip install -r requirements.txt
 
      
-## Running the Application
+  ### 4. Running the Application
 
-Run the main file to start the application:
+        Run the main file to start the application:
 
-    streamlit run app.py.
+        streamlit run app.py.
 
 ## Project Structure    
 ```    
