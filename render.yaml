@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: text-summarizer-app
-    env: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
-    envVars:
-      - key: PORT
-        value: 8501
