@@ -1,24 +1,30 @@
 
-# News Summarizer
-News Summarizer is a deep learning-based application built using a fine-tuned T5-small model with TensorFlow for abstractive news summarization. The goal of this project is to automatically generate concise and meaningful summaries from longer news articles.
+# 📰 News Summarizer
 
-The model was fine-tuned on a kaggle dataset of 4,500 news records, where each sample includes
+**News Summarizer** is a deep learning-based application built using a fine-tuned **T5-small** model with **TensorFlow** for *abstractive* news summarization. The goal is to automatically generate concise and meaningful summaries from longer news articles.
 
-- ctext: the full news article,
+Unlike extractive approaches that merely copy sentences from the original text, this summarizer generates entirely new summaries, mimicking human-like abstraction and paraphrasing using the **T5 architecture**.
 
-- text: a medium-length summary 
+## 📌 Dataset
 
-Unlike extractive approaches that merely copy sentences from the original text, this summarizer generates entirely new summaries, mimicking human-like abstraction and paraphrasing using the T5 architecture.
+The model was fine-tuned on a Kaggle dataset of **4,500 news records**, where each sample includes:
 
+- `ctext`: the full news article
+- `text`: the medium-length summary
 
-
-
-## Project Overview
-News Summarizer is a machine learning project that leverages the T5-small model fine-tuned using TensorFlow to perform abstractive summarization of news articles. The goal is to transform long-form news content into short, informative summaries that preserve the core meaning.
+## 📽️ Demo
 
 ![text_summarizer_demo](https://github.com/gowthamnagu/news-summarization/blob/main/demo/demo.gif)
 
-Unlike traditional extractive summarizers that simply copy and paste key sentences, this project uses an abstractive approach, generating entirely new sentences to represent the content more naturally — similar to how a human might summarize.
+## Project Overview
+This project leverages a **fine-tuned T5-small model** using TensorFlow for summarizing news content. It transforms long-form text into short, informative summaries that preserve the core meaning.
+
+Key Features:
+- Compare **fine-tuned** vs **pretrained** T5 summarization
+- Adjustable generation parameters (beam search, max length, etc.)
+- ROUGE evaluation metrics integrated into the app
+- Fully interactive web app built with **Streamlit**
+
 ## Tech Stack
 - **TensorFlow** – For model training and inference (fine-tuned T5).
 - **Transformers** (Hugging Face) – For leveraging the T5-small model and tokenizer.
