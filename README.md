@@ -47,6 +47,7 @@ Unlike traditional extractive summarizers that simply copy and paste key sentenc
 Run the main file to start the application:
 
     streamlit run app.py.
+```    
 └── news_summarizer/
     ├── t5-ns-12/
     │   ├── tf_model.h5      #finetunied model file
@@ -58,3 +59,4 @@ Run the main file to start the application:
     ├── ts_pretuned.py      #contains functionality for generating summary based on pretuned model (t5-small)
     ├── news_summary.csv    #dataset file for finetuning the t5-small file
     └── requirements.txt    #Lists all the dependencies required for the project.
+```
