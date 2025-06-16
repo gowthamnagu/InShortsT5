@@ -25,7 +25,7 @@ Key Features:
 - ROUGE evaluation metrics integrated into the app
 - Fully interactive web app built with **Streamlit**
 
-![evaluation_metrics](https://github.com/gowthamnagu/news-summarization/blob/main/demo/demo.gif)
+![evaluation_metrics](https://github.com/gowthamnagu/InShortsT5/blob/main/image/Evaluation.png)
  
 
 ## 🛠️ Tech Stack
