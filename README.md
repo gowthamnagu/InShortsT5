@@ -1,9 +1,9 @@
 
-# 📰 News Summarizer
+# 📰 InShortsT5
 
-**News Summarizer** is a deep learning-based application built using a fine-tuned **T5-small** model with **TensorFlow** for *abstractive* news summarization. The goal is to automatically generate concise and meaningful summaries from longer news articles.
+**InShortsT5** is a Large Language Model application built using a fine-tuned **T5-small** model with **TensorFlow** for *abstractive* news summarization. The goal is to automatically generate concise and meaningful summaries from longer news articles.
 
-Unlike extractive approaches that merely copy sentences from the original text, this summarizer generates entirely new summaries, mimicking human-like abstraction and paraphrasing using the **T5 architecture**.
+Unlike extractive approaches that merely copy sentences from the original text, this summarizer generates entirely new summaries, mimicking human-like abstraction and paraphrasing using the **T5 architecture (LLM)**.
 
 ## 📌 Dataset
 
@@ -24,6 +24,9 @@ Key Features:
 - Adjustable generation parameters (beam search, max length, etc.)
 - ROUGE evaluation metrics integrated into the app
 - Fully interactive web app built with **Streamlit**
+
+![evaluation_metrics](https://github.com/gowthamnagu/news-summarization/blob/main/demo/demo.gif)
+ 
 
 ## 🛠️ Tech Stack
 - **TensorFlow** – For model training and inference (fine-tuned T5).
